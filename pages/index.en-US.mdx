@@ -6,84 +6,102 @@ import Callout from 'nextra-theme-docs/callout'
 import Features from 'components/features'
 import Bleed from 'nextra-theme-docs/bleed'
 
+`Hi`, My name is
+
 {
 // wrapped with {} to mark it as javascript so mdx will not put it under a p tag
 }
-{<h1 className="text-center font-extrabold md:text-5xl mt-8">Ferdous Mahmud Akash</h1>}
+{<h1 className="text-center font-semibold md:text-5xl mt-8 ">Ferdous Mahmud Akash</h1>}
 
 <Bleed><Features/></Bleed>
 
-The name “SWR” is derived from `stale-while-revalidate`, a HTTP cache invalidation strategy popularized by [HTTP RFC 5861](https://tools.ietf.org/html/rfc5861).
-SWR is a strategy to first return the data from cache (stale), then send the fetch request (revalidate), and finally come with the up-to-date data.
+I’m a `software engineer` specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building `accessible`, `human-centered` products at Upstatement.
 
-<Callout emoji="🚀" type="warning">
-  With SWR, components will get a stream of data updates <strong>constantly</strong> and <strong>automatically</strong>.<br/>
-  And the UI will be always <strong>fast</strong> and <strong>reactive</strong>.
-</Callout>
+{
+  <div class="grid place-items-center mt-8 mb-8">
+    <a class="no-underline" href="Ferdous_Mahmud_Akash_iOS_developer_resume.pdf">
+      <button class="bg-gray-300 hover:bg-gray-100 text-green-500 font-bold py-2 px-4 rounded inline-flex items-center">
+  <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+  <span>Download Resume</span>
+</button>
+    </a>
+  </div>
+}
 
-<Callout emoji="🟢" type="error">
-  With SWR, components will get a stream of data updates <strong>constantly</strong> and <strong>automatically</strong>.<br/>
-  And the UI will be always <strong>fast</strong> and <strong>reactive</strong>.
-</Callout>
 
-<div className="mt-16 mb-20 text-center">
-  [Get Started](/docs/getting-started) · [Projects](/projects/basic) · [Blog](/blog/swr-v1) · [GitHub Repository](https://github.com/ferdous-mahmud)
-</div>
 
-## Overview
-
-```jsx
-import useSWR from 'swr'
-
-function Profile() {
-  const { data, error } = useSWR('/api/user', fetcher)
-
-  if (error) return <div>failed to load</div>
-  if (!data) return <div>loading...</div>
-  return <div>hello {data.name}!</div>
+```swift
+while (alive) {
+  eat()
+  sleep()
+  code()
+  repeat()
 }
 ```
 
-In this example, the `useSWR` hook accepts a `key` string and a `fetcher` function. `key` is a unique identifier of the data (normally the API URL)
-and will be passed to `fetcher`. `fetcher` can be any asynchronous function which returns the data, you can use the native fetch or tools like Axios.
+<br/>
 
-The hook returns 2 values: `data` and `error`, based on the status of the request.
+### <strong>Writing</strong>
 
-## Features
+I'm giving it a shot at writing weekly notes. You can browse the full `archive`, for as long as I manage to keep it up 😅. I occasionally `blog` about <strong>iOS</strong> things that I've learnt or enjoyed, though the frequency of posts has really decreased lately.
 
-With just one single line of code, you can simplify the logic of data fetching in your project, and also have all these amazing features out-of-the-box:
+<Callout emoji="🚀" type="warning">
+  I also <strong>post</strong> `swift interview question` on <a href="https://www.linkedin.com/in/ferdous19/" target="_blank">Linkedin</a>. It keeps me motivating 😊.
+</Callout>
 
-- **Fast**, **lightweight** and **reusable** data fetching
-- Built-in **cache** and request deduplication
-- **Real-time** experience
-- Transport and protocol agnostic
-- SSR / ISR / SSG support
-- TypeScript ready
-- React Native
+<br/>
+### <strong>Projects</strong>
 
-SWR has you covered in all aspects of speed, correctness, and stability to help you build better experiences:
+I build very small (but structured, I think!) side projects that are either iOS key components proctice which often need. <br/>
+`Example:`
+- Networking without third party library.
+- Core graphic art.
+- Playing wiht audio / video.
+- Connect with apple core API.
+- Geolocation & bluetooth API.
+- Firebase or iCloud login.
+- Payment gateway implementation.
 
-- Fast page navigation
-- Polling on interval
-- Data dependency
-- Revalidation on focus
-- Revalidation on network recovery
-- Local mutation (Optimistic UI)
-- Smart error retry
-- Pagination and scroll position recovery
-- React Suspense
+<Callout emoji="✅">
+  With SWR, components will get a stream of data updates <strong>constantly</strong> and <strong>automatically</strong>.<br/>
+  And the UI will be always <strong>fast</strong> and <strong>reactive</strong>.
+</Callout>
 
-And a lot [more](/docs/getting-started).
+<br/>
+### <strong>Others</strong>
 
-## Community
+- I would like to programming contest and love compitetive programming.
+- Have participate `ACM ICPC` programming contest.
+- Also the `Champione` of <strong>NUBTK</strong> programming contest 2k22.
 
-<p className="flex h-6">
-  <img alt="stars" src="https://badgen.net/github/stars/vercel/swr" className="inline-block mr-2"/>
-  <img alt="downloads" src="https://badgen.net/npm/dt/swr" className="inline-block mr-2"/>
-  <img alt="license" src="https://badgen.net/npm/license/swr" className="inline-block mr-2"/>
-</p>
 
-SWR is created by the same team behind [Next.js](https://nextjs.org), the React framework.  
-Follow [@vercel](https://twitter.com/vercel) on Twitter for future project updates.
-
-Feel free to join the [discussions on GitHub](https://github.com/ferdous-mahmud/discussions)!
+{
+  <section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto flex items-center md:flex-row flex-col">
+    <div class="flex flex-col md:pr-10 md:mb-0 mb-6 pr-0 w-full md:w-auto md:text-left text-center">
+      <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">Connect with me</h2>
+      <h1 class="md:text-2xl text-xl font-medium title-font text-gray-900">Don't be shy,
+say hi
+</h1>
+    </div>
+    <div class="flex md:ml-auto md:mr-0 mx-auto items-center flex-shrink-0 space-x-4">
+      <a class="no-underline" href="https://github.com/ferdous-mahmud" target="_blank">
+      <button class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none mt-5">
+        <span class="ml-4 flex items-start flex-col leading-none">
+          <span class="text-xs text-gray-600 mb-1">FOLLOW ON</span>
+          <span class="title-font font-medium">Github</span>
+        </span>
+      </button>
+      </a>
+      <a class="no-underline" href="https://www.linkedin.com/in/ferdous19/" target="_blank">
+      <button class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none mt-5">
+        <span class="ml-4 flex items-start flex-col leading-none">
+          <span class="text-xs text-gray-600 mb-1">CONNECT ON</span>
+          <span class="title-font font-medium">Linkedin</span>
+        </span>
+      </button>
+      </a>
+    </div>
+  </div>
+</section>
+}

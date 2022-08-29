@@ -10,8 +10,8 @@ const Feature = ({ text, icon }) => (
 );
 
 const TITLE_WITH_TRANSLATIONS = {
-  "en-US": "iOS developer portfolio & blog",
-  "bn-BD": "আইওএস ডেভেলপার পোর্টফোলিও এবং ব্লগ",
+  "en-US": "I build iOS & MacOS apps",
+  "bn-BD": "আমি iOS এবং MacOS অ্যাপ তৈরি করি",
 };
 
 // Transaltions for Features
@@ -26,15 +26,38 @@ const FEATURES_WITH_TRANSLATIONS = {
     typescript: "TypeScript Ready",
     remoteLocal: "Remote + Local",
   },
+  "es-ES": {},
   "bn-BD": {
-    lightweight: "লাইটওয়েট",
-    realtime: "প্রকৃত সময়",
-    suspense: "সাসপেন্স",
+    lightweight: "Lightweight",
+    realtime: "Realtime",
+    suspense: "Suspense",
     pagination: "Pagination",
     backendAgnostic: "Backend Agnostic",
     renderingStrategies: "SSR / SSG Ready",
     typescript: "TypeScript Ready",
     remoteLocal: "Remote + Local",
+  },
+  "pt-BR": {
+    lightweight: "Leve",
+    realtime: "Tempo-real",
+    suspense: "Suspense",
+    pagination: "Paginação",
+    backendAgnostic: "Backend Agnóstico",
+    renderingStrategies: "Pronto para SSR / SSG",
+    typescript: "Pronto para TypeScript",
+    remoteLocal: "Remoto + Local",
+  },
+  ja: {},
+  ko: {},
+  ru: {
+    lightweight: "Лёгкий",
+    realtime: "В реальном времени",
+    suspense: "Задержка",
+    pagination: "Пагинация",
+    backendAgnostic: "Бэкэнд-независимый",
+    renderingStrategies: "SSR / SSG",
+    typescript: "TypeScript",
+    remoteLocal: "Удалённо + Локально",
   },
 };
 
@@ -50,7 +73,8 @@ export default () => {
       <p className="text-lg mb-2 text-gray-600 md:!text-2xl">
         {TITLE_WITH_TRANSLATIONS[locale]}
       </p>
-      <div className={styles.features}>
+
+      {/* <div className={styles.features}>
         <Feature
           text={featureText("lightweight")}
           icon={
@@ -205,8 +229,8 @@ export default () => {
               <path d="M16.24 7.76a6 6 0 010 8.49m-8.48-.01a6 6 0 010-8.49m11.31-2.82a10 10 0 010 14.14m-14.14 0a10 10 0 010-14.14"></path>
             </svg>
           }
-        />
-      </div>
+        /> */}
+      {/* </div> */}
     </div>
   );
 };
