@@ -13,7 +13,7 @@ const Logo = ({ height }) => (
 
 const Vercel = ({ height = 20 }) => (
   <div>
-    <a href="https://github.com/ferdous-mahmud" target="_blank">
+    <a class="no-underline" href="https://github.com/ferdous-mahmud" target="_blank">
   Ferdous Mahmud Akash
     </a>
   </div>
