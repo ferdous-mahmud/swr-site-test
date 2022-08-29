@@ -1,0 +1,21 @@
+---
+title: Blog
+searchable: false
+---
+
+import Video from 'components/video'
+import Bleed from 'nextra-theme-docs/bleed'
+
+<h1 className="text-center font-extrabold md:text-5xl mt-8 pb-6">iOS ডেভেলপার ব্লগ</h1>
+
+import BlogIndex from '../components/blog-index'
+
+<BlogIndex more="আরো পড়ুন"/>
+
+<Bleed>
+  <Video
+    src="https://raw.githubusercontent.com/vercel/swr-site/master/.github/videos/focus-revalidate.mp4"
+    caption="Vídeo: uso de la revalidación focus para sincronizar automáticamente el estado login entre páginas."
+    ratio={307/768}
+  />
+</Bleed>

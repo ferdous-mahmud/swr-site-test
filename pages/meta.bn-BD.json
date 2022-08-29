@@ -1,0 +1,22 @@
+{
+  "index": {
+    "title": "পোর্টফোলিও",
+    "type": "page",
+    "hidden": true
+  },
+  "docs": {
+    "title": "ডক্স",
+    "type": "page"
+  },
+  "projects": {
+    "title": "প্রজেক্ট",
+    "type": "page"
+  },
+  "blog": {
+    "title": "ব্লগ",
+    "type": "page",
+    "theme": {
+      "sidebar": false
+    }
+  }
+}
