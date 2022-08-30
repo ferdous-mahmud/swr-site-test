@@ -10,7 +10,10 @@
   },
   "projects": {
     "title": "Projects",
-    "type": "page"
+    "type": "page",
+    "theme": {
+      "sidebar": false
+    }
   },
   "blog": {
     "title": "Blog",
