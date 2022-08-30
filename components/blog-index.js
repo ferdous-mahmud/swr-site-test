@@ -6,7 +6,7 @@ export default function BlogIndex({ more = "Read more" }) {
     // Alias `<a>` to avoid it being replaced by MDX components.
     const A = "a";
     return (
-      <div className="bg-gray-300 p-3 rounded-md">
+      <div className="bg-gray-300 p-3 rounded-md mb-3">
         <h3 className="dark:text-black -mt-1 -mb-3">
           <Link href={page.route}>
             <A style={{ color: "inherit", textDecoration: "none" }}>
