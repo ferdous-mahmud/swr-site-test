@@ -1,5 +1,6 @@
 import { getPagesUnderRoute } from "nextra/context";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function ProjectIndex({ more = "Read more" }) {
   return getPagesUnderRoute("/projects").map((page) => {
