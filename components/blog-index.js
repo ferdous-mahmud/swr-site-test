@@ -6,20 +6,20 @@ export default function BlogIndex({ more = "Read more" }) {
     // Alias `<a>` to avoid it being replaced by MDX components.
     const A = "a";
     return (
-      <div className="bg-gray-300 p-3 rounded-md mb-3">
-        <h3 className="dark:text-black -mt-1 -mb-3">
+      <div className="p-3 rounded-md mb-3 border">
+        <h3 className="-mt-1 -mb-3">
           <Link href={page.route}>
             <A style={{ color: "inherit", textDecoration: "none" }}>
               {page.meta?.title || page.frontMatter?.title || page.name}
             </A>
           </Link>
         </h3>
-        <p className="opacity-90 dark:text-black">
+        <p className="opacity-90">
           {page.frontMatter?.description}{" "}
           <Link href={page.route}>{more + " →"}</Link>
         </p>
         {page.frontMatter?.date ? (
-          <p className="opacity-60 text-sm dark:text-black">{page.frontMatter.date}</p>
+          <p className="opacity-60 text-sm">{page.frontMatter.date}</p>
         ) : null}
       </div>
     );
