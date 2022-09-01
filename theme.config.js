@@ -99,14 +99,14 @@ export default {
           name="description"
           content={
             meta.description ||
-            "SWR is a React Hooks library for data fetching. SWR first returns the data from cache (stale), then sends the fetch request (revalidate), and finally comes with the up-to-date data again."
+            "iOS developer portfolio & blog website - Ferdous Mahmud Akash"
           }
         />
         <meta
           name="og:description"
           content={
             meta.description ||
-            "SWR is a React Hooks library for data fetching. SWR first returns the data from cache (stale), then sends the fetch request (revalidate), and finally comes with the up-to-date data again."
+            "iOS developer portfolio & blog website - Ferdous Mahmud Akash"
           }
         />
         <meta name="twitter:card" content="summary_large_image" />
@@ -115,11 +115,11 @@ export default {
         <meta
           name="og:title"
           content={
-            title ? title + " – SWR" : "SWR: iOS Developer Portfolio & Blog"
+            title ? title + " - Ferdous Mahmud Akash" : "iOS Developer Portfolio & Blog"
           }
         />
         <meta name="og:image" content={ogImage} />
-        <meta name="apple-mobile-web-app-title" content="SWR" />
+        <meta name="apple-mobile-web-app-title" content="Ferdous Mahmud Akash" />
       </>
     );
   },
