@@ -115,7 +115,7 @@ export default {
         <meta
           name="og:title"
           content={
-            title ? title + " - Ferdous Mahmud Akash" : "iOS Developer Portfolio & Blog"
+            title ? title + " - by Ferdous Mahmud Akash" : "iOS Developer Portfolio & Blog"
           }
         />
         <meta name="og:image" content={ogImage} />
