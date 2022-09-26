@@ -62,7 +62,7 @@ export default {
 
     const ogImage =
       meta.image ||
-      `https://swr-card.vercel.app${
+      `https://user-images.githubusercontent.com/62091371/192241408-9a1004b6-1a9b-4efb-99d5-51be931afcc7.png${
         /\/index\.+/.test(route) ? "" : "?title=" + encodeURIComponent(title)
       }`;
 
